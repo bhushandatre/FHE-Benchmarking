@@ -90,11 +90,11 @@ int main() {
         log_result(log_file, "Plain+Cipher_Mul_Scalar", poly_deg,
                    chrono::duration<double, std::milli>(end - start).count());
 
-        cout << "✅ Scalar Done: Degree = " << poly_deg << endl;
+        cout << " Scalar Done: Degree = " << poly_deg << endl;
     }
 
     log_file.close();
-    cout << "\n🎉 Scalar Benchmarking complete. Check seal_scalar_benchmark_log.csv\n";
+    cout << "\n Scalar Benchmarking complete. Check seal_scalar_benchmark_log.csv\n";
     return 0;
 }
 
