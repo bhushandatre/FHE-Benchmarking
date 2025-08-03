@@ -95,12 +95,12 @@ int main() {
             log_result(log_file, "Plain+Cipher_Mul", poly_deg, vec_size,
                        chrono::duration<double, std::milli>(end - start).count());
 
-            cout << "✅ Done: Degree=" << poly_deg << ", VectorSize=" << vec_size << endl;
+            cout << " Done: Degree=" << poly_deg << ", VectorSize=" << vec_size << endl;
         }
     }
 
     log_file.close();
-    cout << "\n🎉 Benchmarking complete. Check seal_benchmark_log.csv\n";
+    cout << "\n Benchmarking complete. Check seal_benchmark_log.csv\n";
     return 0;
 }
 
